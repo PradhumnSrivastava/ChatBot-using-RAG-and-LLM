@@ -1,0 +1,7 @@
+Artificial Intelligence is a field of computer science that focuses on building intelligent machines.
+
+Machine learning is a subset of artificial intelligence that allows systems to learn patterns from data.
+
+Deep learning is a technique in machine learning that uses neural networks.
+
+Natural language processing helps machines understand human language.
