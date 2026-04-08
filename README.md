@@ -1,4 +1,4 @@
-# 🧠 Project Working (Background Explanation)
+# Project Working (Background Explanation)
 
 This project follows a **Retrieval-Augmented Generation (RAG)** approach and works in two main phases:
 
@@ -7,7 +7,7 @@ This project follows a **Retrieval-Augmented Generation (RAG)** approach and wor
 
 ---
 
-## ⚙️ 1. Ingestion Phase (Data Preparation)
+## 1. Ingestion Phase (Data Preparation)
 
 This phase prepares the document so that it can be efficiently searched later.
 
@@ -56,7 +56,7 @@ A searchable knowledge base is created where:
 
 ---
 
-## ⚡ 2. Runtime Phase (Question Answering)
+## 2. Runtime Phase (Question Answering)
 
 This phase is executed when the user asks a question.
 
@@ -116,14 +116,14 @@ If the answer is not present in the context:
 
 ---
 
-## 🔁 Complete Flow
+## Complete Flow
 
 Document → Split → Embeddings → FAISS  
 Query → Embedding → Similar Chunks → Context → LLM → Answer  
 
 ---
 
-## 🎯 Core Idea
+## Core Idea
 
 Instead of relying only on the LLM's internal knowledge:
 
@@ -132,7 +132,7 @@ Instead of relying only on the LLM's internal knowledge:
 
 ---
 
-## 🧩 Analogy
+## Analogy
 
 This system works like a human reading a book:
 
@@ -142,7 +142,7 @@ This system works like a human reading a book:
 
 ---
 
-## ⚖️ With vs Without RAG
+## With vs Without RAG
 
 ### Without RAG
 - LLM answers from memory  
@@ -154,7 +154,7 @@ This system works like a human reading a book:
 
 ---
 
-## 📌 Summary
+## Summary
 
 - Documents are converted into embeddings  
 - Stored in a vector database  
